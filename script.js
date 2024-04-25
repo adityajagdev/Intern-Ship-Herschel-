@@ -1,39 +1,3 @@
-// let arr = JSON.parse(localStorage.getItem('RegisterData')) || [];
-// let rpassword = document.getElementById('password').value;
-// let rcpassword = document.getElementById('cpassword').value;
-// let loginEmail = document.getElementById('loginEmail').value;
-// let loginPassword = document.getElementById('loginPassword').value;
-
-// document.getElementById('form1').addEventListener('submit', (e) => {
-//     e.preventDefault()
-
-//     let regData = JSON.parse(localStorage.getItem('RegisterData'));
-//     for (let i = 0; i < regData.length; i++) {
-//         if (regData[i] == loginEmail) {
-//             alert("*** You Login SuccessFull ***");
-//         }
-//         else {
-//             alert('Password Or Email Is Wrong!!!');
-//         }
-//     }
-// })
-
-// document.getElementById('form2').addEventListener('submit', (e) => {
-//     e.preventDefault()
-//     let register = {
-//         firstName: document.getElementById('fn').value,
-//         lastName: document.getElementById('ln').value,
-//         email: document.getElementById('eemail').value,
-//         rpassword: document.getElementById('password').value,
-//         rcpassword: document.getElementById('cpassword').value
-//     }
-//     if (register.rpassword != register.rcpassword) {
-//         alert("Password Not Match To Conform Password")
-//     }
-//     arr.push(register);
-//     localStorage.setItem('RegisterData', JSON.stringify(arr))
-// })
-
 let form1 = document.getElementById('form1');
 let form2 = document.getElementById('form2');
 let arr = JSON.parse(localStorage.getItem('Registration')) || []
