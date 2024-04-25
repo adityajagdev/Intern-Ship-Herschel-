@@ -1,0 +1,75 @@
+*{
+    font-family: sans-serif;
+}
+nav{
+    border-bottom: 1px solid lightgray;
+}
+nav img{
+    width: 110px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+.nav-logo i,img{
+    cursor: pointer;
+}
+.login-form input{
+    outline: none;
+    font-size: 13px;
+}
+.register-form input{
+    outline: none;
+    font-size: 13px;
+}
+.main-account{
+    border-right: 1px solid lightgray;
+}
+.login-register-form{
+display: flex;
+}
+.Hero{
+height: 87vh;
+background-image: url('https://herschel.com/content/dam/herschel/lifestyle/2024-s2/feature-panels/softshell/D-24-S2-Softshell-FP1-Opt_1.jpg.sthumbnails.original.webp');
+background-size: cover;
+background-position: center;
+position: relative;
+}
+.Softshell h1{
+    font-weight: 800;
+    font-size: 50px;
+}
+.Hero button{
+    position: absolute;
+    bottom: 4%;
+    left: 2%;
+    font-size: 14px;
+}
+@media (min-width: 320px){
+    #offcanvasRight{
+        width: 100%;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px){
+    #offcanvasRight{
+        width: 100%;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px){
+    #offcanvasRight{
+        width: 80%;
+    }
+}
+.offcanvas2{
+    width: 45%;
+}
+
+.cart-item{
+    padding: 11px;
+    cursor: pointer;
+}
+.cart-item p{
+    line-height: 10px;
+    font-size: 15px;
+}
