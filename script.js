@@ -26,22 +26,24 @@ form2.addEventListener('submit',(e)=>{
         password: document.getElementById('password').value,
         cpassword: document.getElementById('cpassword').value
     }
-    if(form2Obj.password != form2Obj.cpassword){
-        alert("Password And Conform Password Not Match !!")
-    }
-    else{
-        arr.push(form2Obj)
-        localStorage.setItem('Registration',JSON.stringify(arr))  
-        alert("You Are Registerd** Now You Can Login")
+    // if(form2Obj.password != form2Obj.cpassword){
+    //     alert("Password And Conform Password Not Match !!")
+    // }
+    // else{
         
-        // let reg1 = JSON.parse(localStorage.getItem('Registration'))
-        // for(let i=0; i<reg1.length; i++){
-        //     if(reg1[i].email == form2Obj.email){
-        //         alert('That Email Is Already Registerd');
-        //     }
-        //     else{
-        //         alert("You Are Registerd**")
-        //     }
-        // }
-    } 
+    // } 
+    arr.push(form2Obj)
+        localStorage.setItem('Registration',JSON.stringify(arr))
+        
+       let reg1 = JSON.parse(localStorage.getItem('Registration'))
+
+       reg1.map((e,i)=>{
+        if(e.email !== form2Obj.email){
+            alert('You Are Register Successfully')
+        }
+        else{
+            alert('You Are Already Registered')
+       }
+})
+        
 })

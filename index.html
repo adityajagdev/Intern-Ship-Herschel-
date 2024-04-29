@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,11 +18,15 @@
     <div class="wraper">
         <!-- NavBar -->
         <nav class="d-flex align-items-center justify-content-between  col-12 p-3">
+
+            <!-- Company Logo -->
             <img src="https://herschel.com/etc/designs/herschel/clientlibs/global/images/logo-pyot.png"
                 alt="Path Is Not Find">
+
+                <!-- Different Section Links -->
             <div
                 class="nav-links d-lg-flex align-items-center col-lg-4 justify-content-between d-md-none d-sm-none d-none">
-                <a href="#">New Arrivals</a>
+                <a href="arrivals.html">New Arrivals</a>
                 <a href="#">Bags</a>
                 <a href="#">Travel</a>
                 <a href="#">Accessories</a>
@@ -29,18 +34,28 @@
                 <a href="#">Little Herschel</a>
                 <a href="#">Sale</a>
             </div>
+
+            <!-- Navbar Other Sections -->
             <div class="nav-logo col-lg-1 d-flex justify-content-between col-md-3 col-sm-3 col-5">
+                <!-- Login And Register -->
                 <a href="login.html"><i class="bi bi-person fs-6" id="login"></i></a>
-                
+
+                <!-- Cart Btn To Show Cart Items -->
                 <button class="btn p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-            aria-controls="offcanvasRight"><i class="bi bi-bag fs-6"></i></button>
+                    aria-controls="offcanvasRight"><i class="bi bi-bag fs-6"></i></button>
+
+                    <!-- Serach Btn -->
                 <i class="bi bi-search fs-6"></i>
+
+                <!-- Country Btn -->
                 <img src="https://herschel.com/content/dam/herschel/flags/US.svg" alt="" class=" col-2">
             </div>
 
+            <!-- Navbar Different Section Links Menu -->
             <button class="btn d-lg-none p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
                 aria-controls="offcanvasTop"><i class="bi bi-list fs-2"></i></button>
 
+                 <!-- Navbar Different Section Links Menu Head And Body -->
             <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel"
                 style="height: 100vh;">
                 <div class="offcanvas-header">
@@ -59,7 +74,7 @@
                 </div>
                 <div class="offcanvas-body">
                     <div class="nav-links d-flex flex-column col-12">
-                        <a href="#" class="pe-lg-0 ps-lg-0 fs-1 fw-bold">New Arrivals</a>
+                        <a href="arrivals.html" class="pe-lg-0 ps-lg-0 fs-1 fw-bold">New Arrivals</a>
                         <a href="#" class="fs-1 fw-bold">Bags</a>
                         <a href="#" class="fs-1 fw-bold">Travel</a>
                         <a href="#" class="fs-1 fw-bold">Accessories</a>
@@ -69,7 +84,85 @@
                     </div>
                 </div>
             </div>
+            
         </nav>
+
+        <!-- Cart Section -->
+        <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 id="offcanvasRightLabel">Your Selected Orders</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <!-- Show when Cart Is Empty -->
+                <h6>Your Cart Is Empty!!</h6>
+
+                <!-- Cart Items -->
+                <div class="cart-items">
+                    <div class="column col-12 d-flex flex-wrap justify-content-evenly">
+                        <div class="cart-item col-lg-4 col-md-4 col-sm-4 col-6">
+                            <img src="https://herschel.com/content/dam/herschel/products/30097/30097-00001-OS_01.jpg.sthumbnails.300.375.webp"
+                                alt="" class="col-12">
+                            <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
+                            <p id="cart-item-price">$45.00</p>
+                            <p id="cart-item-color">Color: Black</p>
+                        </div>
+                        <div class="cart-item col-lg-4 col-md-4 col-sm-4 col-6">
+                            <img src="https://herschel.com/content/dam/herschel/products/30097/30097-00001-OS_01.jpg.sthumbnails.300.375.webp"
+                                alt="" class="col-12">
+                            <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
+                            <p id="cart-item-price">$45.00</p>
+                            <p id="cart-item-color">Color: Black</p>
+                        </div>
+                        <div class="cart-item col-lg-4 col-md-4 col-sm-4 col-6">
+                            <img src="https://herschel.com/content/dam/herschel/products/30063/30063-02077-OS_01.jpg.sthumbnails.300.375.webp"
+                                alt="" class="col-12">
+                            <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
+                            <p id="cart-item-price">$45.00</p>
+                            <p id="cart-item-color">Color: Black</p>
+                        </div>
+                        <div class="cart-item col-lg-4 col-md-4 col-sm-4 col-6">
+                            <img src="https://herschel.com/content/dam/herschel/products/30063/30063-02077-OS_01.jpg.sthumbnails.300.375.webp"
+                                alt="" class="col-12">
+                            <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
+                            <p id="cart-item-price">$45.00</p>
+                            <p id="cart-item-color">Color: Black</p>
+                        </div>
+                        <div class="cart-item col-lg-4 col-md-4 col-sm-4 col-6">
+                            <img src="https://herschel.com/content/dam/herschel/products/30063/30063-02077-OS_01.jpg.sthumbnails.300.375.webp"
+                                alt="" class="col-12">
+                            <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
+                            <p id="cart-item-price">$45.00</p>
+                            <p id="cart-item-color">Color: Black</p>
+                        </div>
+                        <div class="cart-item col-lg-4 col-md-4 col-sm-4 col-6">
+                            <img src="https://herschel.com/content/dam/herschel/products/30063/30063-02077-OS_01.jpg.sthumbnails.300.375.webp"
+                                alt="" class="col-12">
+                            <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
+                            <p id="cart-item-price">$45.00</p>
+                            <p id="cart-item-color">Color: Black</p>
+                        </div>
+                        <div class="cart-item col-lg-4 col-md-4 col-sm-4 col-6">
+                            <img src="https://herschel.com/content/dam/herschel/products/30063/30063-02077-OS_01.jpg.sthumbnails.300.375.webp"
+                                alt="" class="col-12">
+                            <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
+                            <p id="cart-item-price">$45.00</p>
+                            <p id="cart-item-color">Color: Black</p>
+                        </div>
+                        <div class="cart-item col-lg-4 col-md-4 col-sm-4 col-6">
+                            <img src="https://herschel.com/content/dam/herschel/products/30063/30063-02077-OS_01.jpg.sthumbnails.300.375.webp"
+                                alt="" class="col-12">
+                            <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
+                            <p id="cart-item-price">$45.00</p>
+                            <p id="cart-item-color">Color: Black</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
 
         <!-- Hero Page -->
         <div class="Hero col-12">
@@ -79,51 +172,30 @@
             <button class=" btn text-dark bg-light">Shop Now</button>
         </div>
 
-        
-        <!-- Cart Section -->
-        <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-            <div class="offcanvas-header">
-                <h5 id="offcanvasRightLabel">Your Selected Orders</h5>
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                    aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-                <h6>Your Cart Is Empty!!</h6>
 
-                <div class="cart-items">
-                     <div class="column col-12 d-flex flex-wrap justify-content-evenly">
-                        <div class="cart-item col-3">
-                            <img src="https://herschel.com/content/dam/herschel/products/30097/30097-00001-OS_01.jpg.sthumbnails.300.375.webp" alt="" class="col-12">
-                            <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
-                            <p id="cart-item-price">$45.00</p>
-                            <p id="cart-item-color">Color: Black</p>
-                        </div>
-                        <div class="cart-item col-3">
-                            <img src="https://herschel.com/contenst/dam/herschel/products/30064/30064-06170-OS_01.jpg.sthumbnails.300.375.webp" alt="" class="col-12">
-                            <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
-                            <p id="cart-item-price">$45.00</p>s
-                            <p id="cart-item-color">Color: Black</p>
-                        </div>
-                        <div class="cart-item col-3">
-                            <img src="https://herschel.com/content/dam/herschel/products/30063/30063-02077-OS_01.jpg.sthumbnails.300.375.webp" alt="" class="col-12">
-                            <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
-                            <p id="cart-item-price">$45.00</p>
-                            <p id="cart-item-color">Color: Black</p>
-                        </div>
-                        <div class="cart-item col-3">
-                            <img src="https://herschel.com/content/dam/herschel/products/30063/30063-02077-OS_01.jpg.sthumbnails.300.375.webp" alt="" class="col-12">
-                            <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
-                            <p id="cart-item-price">$45.00</p>
-                            <p id="cart-item-color">Color: Black</p>
-                        </div>
-                     </div>
-                     
-                    </div>
+        <footer> 
+            <div class="footer_1 col-12 d-flex flex-wrap justify-content-around border-top p-5 mt-5">
+                <div class="shipping col-1 text-center">
+                    <img src="https://herschel.com/content/dam/herschel/lifestyle/2023-s3/new-classics/footer-svg/Shipping.svg" alt="" class="col-9">
+                    <p>Shipping</p>
+                </div>
+                <div class="shipping col-1 text-center">
+                    <img src="https://herschel.com/content/dam/herschel/lifestyle/2023-s3/new-classics/footer-svg/Warranty.svg" alt="" class="col-9">
+                    <p>Warranty</p>
+                </div>
+                <div class="shipping col-1 text-center">
+                    <img src="https://herschel.com/content/dam/herschel/lifestyle/2023-s3/new-classics/footer-svg/Returns.svg" alt="" class="col-9">
+                    <p>Returns</p>
                 </div>
             </div>
-        </div>
+            <div class="footer_2">
+
+            </div>
+        </footer>
 
     </div>
+
+    
     <script src="script.js"></script>
 </body>
 
