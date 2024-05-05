@@ -73,28 +73,7 @@ position: relative;
     line-height: 12px;
     font-size: 15px;
 }
-.arrSideBar_body p{
-    font-size: 14px;
-}
-.arrSideBar_body p input{
-    cursor: pointer;
-}
-#hide_filter{
-    cursor: pointer;
-}
-.arrMainBar-column>.cart-item>img{
-    width: 70%;
-    
-}
-.arrMainBar-column>.cart-item:hover{
-    border: 1px solid rgba(211, 211, 211, 0.565);
-}
-.arrMainBar-column>.cart-item{
-    transition: 0.5s;
-}
-#category{
-    cursor: pointer;
-}
+
 .footer {
     background-color: #f2f2f2;
     padding: 40px 0;
