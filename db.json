@@ -1,0 +1,93 @@
+{
+  "Shop_Categories_Slider":[
+    {
+        "id": 1,
+        "images": "https://herschel.com/content/dam/herschel/products/11391/11391-00001-OS_01.jpg.sthumbnails.original.webp",
+        "slider_title": "Backpacks"
+    },
+    {
+        "id": 2,
+        "images": "https://herschel.com/content/dam/herschel/products/11198/11198-00001-OS_01.jpg.sthumbnails.original.webp",
+        "slider_title": "Luggage"
+    },
+    {
+        "id": 3,
+        "images": "https://herschel.com/content/dam/herschel/products/11396/11396-00001-OS_01.jpg.sthumbnails.original.webp",
+        "slider_title": "Duffles"
+    },
+    {
+        "id": 4,
+        "images": "https://herschel.com/content/dam/herschel/products/50263/50263-00001-OS_01.jpg.sthumbnails.original.webp",
+        "slider_title": "Headwear"
+    },
+    {
+        "id": 5,
+        "images": "https://herschel.com/content/dam/herschel/products/10360/10360-02993-OS_01.jpg.sthumbnails.original.webp",
+        "slider_title": "Totes"
+    },
+    {
+        "id": 6,
+        "images": "https://herschel.com/content/dam/herschel/products/11401/11401-00001-OS_01.jpg.sthumbnails.original.webp",
+        "slider_title": "Hip Packs"
+    },
+    {
+        "id": 7,
+        "images": "https://herschel.com/content/dam/herschel/products/11382/11382-00001-OS_01.jpg.sthumbnails.original.webp",
+        "slider_title": "Crossbodies"
+    },
+    {
+        "id": 8,
+        "images": "https://herschel.com/content/dam/herschel/products/11394/11394-Carousel.png.sthumbnails.original.webp",
+        "slider_title": "Wallets"
+    },
+    {
+        "id": 9,
+        "images": "https://herschel.com/content/dam/herschel/products/30060/30060-00001-OS_01.jpg.sthumbnails.original.webp",
+        "slider_title": "Sleeves"
+    },
+    {
+        "id": 10,
+        "images": "https://herschel.com/content/dam/herschel/products/30064/30064-00001-OS_01.jpg.sthumbnails.original.webp",
+        "slider_title": "Pouches"
+    }
+  ],
+  "Shop_Categories":[
+    {
+        "id":1,
+        "images":"https://images.herzindagi.info/image/2023/May/Bags.jpg",
+        "title":"Bags",
+        "discription": "We’re innovating the way you travel."
+    },
+    {
+        "id":2,
+        "images":"https://5.imimg.com/data5/NB/FC/GLADMIN-49409970/vip-bags-500x500.png",
+        "title":"Bags",
+        "discription": "We’re innovating the way you travel."
+    },
+    {
+        "id":3,
+        "images":"https://img.etimg.com/thumb/width-420,height-315,imgsize-104948,resizemode-75,msid-92977428/top-trending-products/travel/buy-best-travel-luggage-online.jpg",
+        "title":"Bags",
+        "discription": "We’re innovating the way you travel."
+    },
+    {
+        "id":4,
+        "images":"https://www.nerdwallet.com/assets/blog/wp-content/uploads/2021/04/GettyImages-1201494156-600x360.jpg",
+        "title":"Bags",
+        "discription": "We’re innovating the way you travel."
+    },
+    {
+        "id":5,
+        "images":"https://townsquare.media/site/81/files/2019/03/GettyImages-1058507570.jpg",
+        "title":"Bags",
+        "discription": "We’re innovating the way you travel."
+    },
+    {
+        "id":6,
+        "images":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRluJvvSpBtOGWZzVDVmzKuxX5U6p1WM34kH8w6Lr_WHvQOk5VADi3jP3vFaScF9W9IwQg&usqp=CAU",
+        "title":"Bags",
+        "discription": "We’re innovating the way you travel."
+    }
+  ]
+}
+

@@ -151,6 +151,7 @@ position: relative;
     border: 2px solid rgba(211, 211, 211, 0.199);
     margin: 7px;
     margin-top: 0px;
+    
 }
 .slider::-webkit-scrollbar{
     height: 0px;
