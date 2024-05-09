@@ -28,12 +28,12 @@ function shopCategori_Data(data) {
 
 function Categorie(images,title,discription) {
     let content = `
-    <div class="categorie col-lg-6 col-md-6 col-sm-12 col-12 mt-5">
+    <div class="categorie col-lg-5 col-md-5 col-sm-10 col-10 mt-5 m-auto">
     <img src=${images} alt="" class="col-12">
     <div class="shop-categorie-text col-12 lh-1">
         <h3 class="fw-bolder">${title}</h3>
             <p>${discription}</p>
-            <a href="" style="color: gray; font-size: 15px;">Shop Bags</a>
+            <a href="" style="color: gray; font-size: 15px;" class=" col-12">Shop Bags</a>
     </div> 
 </div>
     `

@@ -54,40 +54,344 @@
   "Shop_Categories":[
     {
         "id":1,
-        "images":"https://images.herzindagi.info/image/2023/May/Bags.jpg",
+        "images":"https://herschel.com/content/dam/herschel/lifestyle/2024-s1/campaigns/travel/hotspot/with-cta/product/D-24-S1-HeritageHardshell-Category_Hotspot-06.jpg.sthumbnails.original.webp",
         "title":"Bags",
         "discription": "We’re innovating the way you travel."
     },
     {
         "id":2,
-        "images":"https://5.imimg.com/data5/NB/FC/GLADMIN-49409970/vip-bags-500x500.png",
-        "title":"Bags",
-        "discription": "We’re innovating the way you travel."
+        "images":"https://herschel.com/content/dam/herschel/lifestyle/2024-s2/campaigns/softshell-launch/hotspots/D-24-S2-Softshell-CLP-Hotspot.jpg.sthumbnails.original.webp",
+        "title":"Just Landed",
+        "discription": "Luggage in new colors, just in time for your next trip."
     },
     {
         "id":3,
-        "images":"https://img.etimg.com/thumb/width-420,height-315,imgsize-104948,resizemode-75,msid-92977428/top-trending-products/travel/buy-best-travel-luggage-online.jpg",
-        "title":"Bags",
-        "discription": "We’re innovating the way you travel."
+        "images":"https://p1-tt-ipv6.byteimg.com/origin/pgc-image/dd915e59c1554da0902de406df6f1e49.jpg",
+        "title":"Headwear",
+        "discription": "Discover signature headwear in new limited-edition colors and prints."
     },
     {
         "id":4,
-        "images":"https://www.nerdwallet.com/assets/blog/wp-content/uploads/2021/04/GettyImages-1201494156-600x360.jpg",
-        "title":"Bags",
-        "discription": "We’re innovating the way you travel."
+        "images":"https://thefashiontag.com/wp-content/uploads/2015/11/street-style-men-bags-1.jpg",
+        "title":"Accessories",
+        "discription": "Small essentials made to grab and go."
     },
     {
         "id":5,
-        "images":"https://townsquare.media/site/81/files/2019/03/GettyImages-1058507570.jpg",
-        "title":"Bags",
-        "discription": "We’re innovating the way you travel."
+        "images":"https://cdn.imweb.me/upload/S20210615f90065c76b269/e2785d86fcea9.jpg",
+        "title":"Spring 2024",
+        "discription": "Introducing our seasonal edit."
     },
     {
         "id":6,
-        "images":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRluJvvSpBtOGWZzVDVmzKuxX5U6p1WM34kH8w6Lr_WHvQOk5VADi3jP3vFaScF9W9IwQg&usqp=CAU",
-        "title":"Bags",
-        "discription": "We’re innovating the way you travel."
+        "images":"https://usstore-kh.com/storage/procols/July2021/TLkXvUM61oVLdD4sqDwl.jpg",
+        "title":"Little Herschel",
+        "discription": "Backpacks and accessories for little explorers."
     }
+  ],
+  "Arrivals_Data":[
+    
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/40082/40082-00001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/40083/40083-02077-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11460/11460-02077-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11461/11461-06219-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/30097/30097-06169-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11458/11458-04124-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11459/11459-04260-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11198/11198-06169-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11462/11462-06163-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/30096/30096-06162-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/30098/30098-06163-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11463/11463-06163-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11448/11448-00001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11447/11447-05456-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11446/11446-00001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11445/11445-06067-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11197/11197-06067-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11200/11200-06219-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11436/11436-04281-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11437/11437-04281-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/50163/50163-06166-LX_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/50270/50270-06129-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11449/11449-02077-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11396/11396-06165-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11421/11421-00001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11419/11419-00001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11420/11420-00001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11194/11194-06108-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/10999/10999-02077-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11397/11397-00001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11015/11015-00001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11390/11390-00001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11380/11380-01866-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11405/11405-00055-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11383/11383-05456-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11289/11289-01866-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11381/11381-06091-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11388/11388-03548-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11389/11389-06097-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11288/11288-00919-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11406/11406-04281-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11391/11391-06067-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11407/11407-06105-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11291/11291-04281-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11400/11400-00001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11377/11377-00001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11410/11410-06067-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11411/11411-00001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11401/11401-00001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11385/11385-06110-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11387/11387-04735-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11395/11395-00001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11398/11398-00001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/giftcard/HSC-GC-25_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/70005/70005-00007-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11001/11001-00001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11000/11000-00001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/1232/1232-0001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11037/11037-00528-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/1233/1233-0001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/50068/50068-01093-ALLSIZES_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/50238/50238-05910-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/50141/50141-01090-ALLSIZES_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/50237/50237-05914-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11450/11450-06094-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11196/11196-04123-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/30065/30065-00001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/50519/50519-06531-ALLSIZES_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/50277/50277-00001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11010/11010-05905-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/30064/30064-00001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/50418/50418-06515-ALLSIZES_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/10771/10771-05905-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/1247/1247-0001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11070/11070-00001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11393/11393-00001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/50293/50293-06214-ALLSIZES_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11003/11003-03608-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11409/11409-06067-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11239/11239-00001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/50489/50489-06531-ALLSIZES_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11009/11009-05905-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/50090/50090-00568-ALLSIZES_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/50294/50294-06212-ALLSIZES_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/50496/50496-06531-ALLSIZES_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/30085/30085-02077-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/50292/50292-05456-ALLSIZES_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/50517/50517-06531-ALLSIZES_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11293/11293-01866-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11163/11163-00001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11376/11376-00001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/30078/30078-00001-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/50516/50516-06531-ALLSIZES_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/50488/50488-00001-ALLSIZES_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/50149/50149-A1090-ALLSIZES_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11202/11202-00919-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11382/11382-06094-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11016/11016-06216-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11456/11456-04123-OS_01.jpg.sthumbnails.680.850.webp"
+      },
+      {
+        "url": "https://herschel.com/content/dam/herschel/products/11455/11455-06219-OS_01.jpg.sthumbnails.680.850.webp"
+      }
   ]
+
 }
 

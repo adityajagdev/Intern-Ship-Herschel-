@@ -47,7 +47,7 @@ position: relative;
     font-size: 14px;
 }
 @media (min-width: 320px){
-    #offcanvasRight{
+    #offc  anvasRight{
         width: 100%;
     }
 }
@@ -162,4 +162,8 @@ position: relative;
 ::-webkit-scrollbar-thumb{
     background-color: rgb(171, 167, 167);
     border-radius: 10px;
+}
+.my{
+  flex-wrap: nowrap;
+  
 }
