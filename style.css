@@ -47,7 +47,7 @@ position: relative;
     font-size: 14px;
 }
 @media (min-width: 320px){
-    #offcanvasRight{
+    #offc  anvasRight{
         width: 100%;
     }
 }
@@ -162,7 +162,14 @@ position: relative;
     background-color: rgb(171, 167, 167);
     border-radius: 10px;
 }
+<<<<<<< HEAD
 /* .categorie{
   object-fit: cover;
   
 } */
+=======
+.my{
+  flex-wrap: nowrap;
+  
+}
+>>>>>>> 02c5564f6c139b1c32a0c86987660bb35b4aca3c

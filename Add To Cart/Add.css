@@ -1,0 +1,43 @@
+*{
+    font-family: sans-serif;
+}
+nav{
+    border-bottom: 1px solid lightgray;
+}
+nav img{
+    width: 110px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+.nav-logo i,img{
+    cursor: pointer;
+}
+@media (min-width: 320px){
+    #offcanvasRight{
+        width: 100%;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px){
+    #offcanvasRight{
+        width: 100%;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px){
+    #offcanvasRight{
+        width: 80%;
+    }
+}
+@media (min-width: 993px){
+  #offcanvasRight{
+    width: 50%;
+}
+.cart-item{
+    cursor: pointer;
+}
+.cart-item p{
+    line-height: 12px;
+    font-size: 15px;
+}
