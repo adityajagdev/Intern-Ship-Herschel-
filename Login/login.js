@@ -1,7 +1,8 @@
-let form1 = document.getElementById('form1');
-let form2 = document.getElementById('form2');
+let form1 = document.getElementById('form1'); // Login Form
+let form2 = document.getElementById('form2');  // Register Form
 let arr = JSON.parse(localStorage.getItem('Registration')) || []
 
+// Login Form
 form1.addEventListener('submit',(e)=>{
     e.preventDefault();
     let loginEmail = document.getElementById('loginEmail').value;
@@ -17,6 +18,7 @@ form1.addEventListener('submit',(e)=>{
     }
 })
 
+// Register Form
 form2.addEventListener('submit',(e)=>{
     e.preventDefault();
     form2Obj={
@@ -26,12 +28,6 @@ form2.addEventListener('submit',(e)=>{
         password: document.getElementById('password').value,
         cpassword: document.getElementById('cpassword').value
     }
-    // if(form2Obj.password != form2Obj.cpassword){
-    //     alert("Password And Conform Password Not Match !!")
-    // }
-    // else{
-        
-    // } 
     arr.push(form2Obj)
         localStorage.setItem('Registration',JSON.stringify(arr))
         
