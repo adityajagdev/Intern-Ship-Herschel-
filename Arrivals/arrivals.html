@@ -283,7 +283,15 @@
             >
               show Filters
             </p>
-            <p>Sort By<i class="bi bi-chevron-compact-up"></i></p>
+            
+            <div class="dropdown"> 
+                <p id="sort" class="p-2 dropdown-toggle" style="cursor: pointer; background-color: rgba(211, 211, 211, 0.153);" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">Sort By</p>
+              
+              <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="dropdownMenuButton2">
+                <li><a class="dropdown-item" href="#" id="HL">High To Low</a></li>
+                <li><a class="dropdown-item" href="#" id="LH"> Low To High</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </header>
@@ -301,20 +309,44 @@
           </div>
           <!-- ArrSideBar Body -->
           <div class="arrSideBar_body">
+            
             <span class="d-flex align-items-center" >
-              <input type="radio" name="ghty" class="btn p-0 m-2 bg-light p-2"id="Backpacks" >
+              <input type="checkbox" name="ghty" class=" p-0 m-2 bg-light p-2 Backpacks" >
               <span>Backpacks</span>
             </span>
+
            <span class="d-flex align-items-center" >
-            <input type="radio" name="ghty" class="btn p-0 m-2 bg-light p-2" id="Duffles">
+            <input type="checkbox" name="ghty" class="btn p-0 m-2 bg-light p-2 Duffles">
             <span>Duffles</span>
            </span> 
-            <input type="radio" name="ghty" class="btn col-12 p-0 m-2 bg-light p-2" id="Hard-Shells">Hard Shells 
-            <input type="radio" name="ghty" class="btn col-12 p-0 m-2 bg-light p-2" id="Hip-Packs">Hip Packs 
-            <input type="radio" name="ghty" class="btn col-12 p-0 m-2 bg-light p-2" id="Jackets">Jackets 
-            <input type="radio" name="ghty" class="btn col-12 p-0 m-2 bg-light p-2" id="Organizers">Organizers 
-            <input type="radio" name="ghty" class="btn col-12 p-0 m-2 bg-light p-2" id="Soft-Shells">Soft Shells 
-            <input type="radio" name="ghty" class="btn col-12 p-0 m-2 bg-light p-2" id="Totes">Totes 
+
+           <span class="d-flex align-items-center" >
+            <input type="checkbox" name="ghty" class="btn p-0 m-2 bg-light p-2 Hard-Shells" >
+            <span>Hard Shells</span>
+           </span>
+
+           <span class="d-flex align-items-center" >
+            <input type="checkbox" name="ghty" class="btn p-0 m-2 bg-light p-2 Hip-Packs">
+            <span>Hip Packs</span>
+           </span>
+
+
+           <span class="d-flex align-items-center" >
+            <input type="checkbox" name="ghty" class="btn p-0 m-2 bg-light p-2 Organizers">
+            <span>Organizers</span>
+           </span>
+            
+           <span class="d-flex align-items-center" >
+            <input type="checkbox" name="ghty" class="btn p-0 m-2 bg-light p-2 Soft-Shells" >
+            <span>Soft Shells </span>
+           </span>
+             
+           <span class="d-flex align-items-center" >
+            <input type="checkbox" name="ghty" class="btn p-0 m-2 bg-light p-2 Totes">
+            <span>Totes</span>
+           </span>
+            
+             
           </div>
         </div>
 
@@ -324,54 +356,6 @@
             <div
               class="arrMainBar-column col-12 d-flex flex-wrap justify-content-evenly p-lg-0 p-md-3"
             >
-              <div
-                class="cart-item col-lg-4 col-md-6 col-sm-6 col-12 p-lg-3 p-md-3 p-sm-4 ps-5"
-              >
-                <img
-                  src="https://herschel.com/content/dam/herschel/products/30097/30097-00001-OS_01.jpg.sthumbnails.300.375.webp"
-                  alt=""
-                  class="col-12"
-                />
-                <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
-                <p id="cart-item-price">$45.00</p>
-                <p id="cart-item-color">Color: Black</p>
-              </div>
-              <div
-                class="cart-item col-lg-4 col-md-6 col-sm-6 col-12 p-lg-3 p-md-3 p-sm-4 ps-5"
-              >
-                <img
-                  src="https://herschel.com/content/dam/herschel/products/30097/30097-00001-OS_01.jpg.sthumbnails.300.375.webp"
-                  alt=""
-                  class="col-12"
-                />
-                <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
-                <p id="cart-item-price">$45.00</p>
-                <p id="cart-item-color">Color: Black</p>
-              </div>
-              <div
-                class="cart-item col-lg-4 col-md-6 col-sm-6 col-12 p-lg-3 p-md-3 p-sm-4 ps-5"
-              >
-                <img
-                  src="https://herschel.com/content/dam/herschel/products/30063/30063-02077-OS_01.jpg.sthumbnails.300.375.webp"
-                  alt=""
-                  class="col-12"
-                />
-                <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
-                <p id="cart-item-price">$45.00</p>
-                <p id="cart-item-color">Color: Black</p>
-              </div>
-              <div
-                class="cart-item col-lg-4 col-md-6 col-sm-6 col-12 p-lg-3 p-md-3 p-sm-4 ps-5"
-              >
-                <img
-                  src="https://herschel.com/content/dam/herschel/products/30063/30063-02077-OS_01.jpg.sthumbnails.300.375.webp"
-                  alt=""
-                  class="col-12"
-                />
-                <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
-                <p id="cart-item-price">$45.00</p>
-                <p id="cart-item-color">Color: Black</p>
-              </div>
             </div>
           </div>
         </div>
@@ -401,71 +385,47 @@
           </div>
           <div class="modal-body">
             <div class="arrSideBar col-12 ps-4">
-              <!-- ArrSideBar Head -->
-              <div
-                class="arrSideBar_head d-flex justify-content-between col-12"
-              >
-                <p class="fw-bold">Categoreys</p>
-              </div>
               <!-- ArrSideBar Body -->
               <div class="arrSideBar_body">
-                <p class="lh-1">
-                  <input type="checkbox" />&nbsp;&nbsp;Backpacks
-                </p>
-                <p class="lh-1"><input type="checkbox" />&nbsp;&nbsp;Bottoms</p>
-                <p class="lh-1">
-                  <input type="checkbox" />&nbsp;&nbsp;Crossbodies
-                </p>
-                <p class="lh-1">
-                  <input type="checkbox" />&nbsp;&nbsp;Drinkware
-                </p>
-                <p class="lh-1"><input type="checkbox" />&nbsp;&nbsp;Duffles</p>
-                <p class="lh-1">
-                  <input type="checkbox" />&nbsp;&nbsp;Gift Cards
-                </p>
-                <p class="lh-1">
-                  <input type="checkbox" />&nbsp;&nbsp;Hard Shells
-                </p>
-                <p class="lh-1">
-                  <input type="checkbox" />&nbsp;&nbsp;Headwear
-                </p>
-                <p class="lh-1">
-                  <input type="checkbox" />&nbsp;&nbsp;Hip Packs
-                </p>
-                <p class="lh-1"><input type="checkbox" />&nbsp;&nbsp;Jackets</p>
-                <p class="lh-1">
-                  <input type="checkbox" />&nbsp;&nbsp;Marketing Events
-                </p>
-                <p class="lh-1">
-                  <input type="checkbox" />&nbsp;&nbsp;Messengers
-                </p>
-                <p class="lh-1">
-                  <input type="checkbox" />&nbsp;&nbsp;Organizers
-                </p>
-                <p class="lh-1">
-                  <input type="checkbox" />&nbsp;&nbsp;Soft Shells
-                </p>
-                <p class="lh-1">
-                  <input type="checkbox" />&nbsp;&nbsp;Specialty
-                </p>
-                <p class="lh-1">
-                  <input type="checkbox" />&nbsp;&nbsp;Tech Sleeves
-                </p>
-                <p class="lh-1"><input type="checkbox" />&nbsp;&nbsp;Tops</p>
-                <p class="lh-1"><input type="checkbox" />&nbsp;&nbsp;Totes</p>
-                <p class="lh-1"><input type="checkbox" />&nbsp;&nbsp;Wallets</p>
+
+                <span class="d-flex align-items-center" >
+                  <input type="checkbox"  class="btn p-0 m-2 bg-light p-2 " id="Backpacks">
+                  <span>Backpacks</span>
+                </span>
+    
+               <span class="d-flex align-items-center" >
+                <input type="checkbox"  class="btn p-0 m-2 bg-light p-2 Duffles">
+                <span>Duffles</span>
+               </span> 
+    
+               <span class="d-flex align-items-center" >
+                <input type="checkbox"  class="btn p-0 m-2 bg-light p-2 Hard-Shells">
+                <span>Hard Shells</span>
+               </span>
+    
+               <span class="d-flex align-items-center" >
+                <input type="checkbox"  class="btn p-0 m-2 bg-light p-2 Hip-Packs">
+                <span>Hip Packs</span>
+               </span>
+    
+               <span class="d-flex align-items-center" >
+                <input type="checkbox"  class="btn p-0 m-2 bg-light p-2 Organizers">
+                <span>Organizers</span>
+               </span>
+                
+               <span class="d-flex align-items-center" >
+                <input type="checkbox"  class="btn p-0 m-2 bg-light p-2 Soft-Shells" >
+                <span>Soft Shells </span>
+               </span>
+                 
+               <span class="d-flex align-items-center" >
+                <input type="checkbox"  class="btn p-0 m-2 bg-light p-2 Totes">
+                <span>Totes</span>
+               </span>
+
               </div>
+
             </div>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Cancel
-            </button>
-            <button type="button" class="btn btn-primary">Apply</button>
           </div>
         </div>
       </div>
