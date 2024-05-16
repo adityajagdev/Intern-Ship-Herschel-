@@ -1,693 +1,444 @@
 {
-  "Shop_Categories_Slider":[
+  "Shop_Categories_Slider": [
     {
-        "id": 1,
-        "images": "https://herschel.com/content/dam/herschel/products/11391/11391-00001-OS_01.jpg.sthumbnails.original.webp",
-        "slider_title": "Backpacks"
+      "id": 1,
+      "images": "https://herschel.com/content/dam/herschel/products/11391/11391-00001-OS_01.jpg.sthumbnails.original.webp",
+      "slider_title": "Backpacks"
     },
     {
-        "id": 2,
-        "images": "https://herschel.com/content/dam/herschel/products/11198/11198-00001-OS_01.jpg.sthumbnails.original.webp",
-        "slider_title": "Luggage"
+      "id": 2,
+      "images": "https://herschel.com/content/dam/herschel/products/11198/11198-00001-OS_01.jpg.sthumbnails.original.webp",
+      "slider_title": "Luggage"
     },
     {
-        "id": 3,
-        "images": "https://herschel.com/content/dam/herschel/products/11396/11396-00001-OS_01.jpg.sthumbnails.original.webp",
-        "slider_title": "Duffles"
+      "id": 3,
+      "images": "https://herschel.com/content/dam/herschel/products/11396/11396-00001-OS_01.jpg.sthumbnails.original.webp",
+      "slider_title": "Duffles"
     },
     {
-        "id": 4,
-        "images": "https://herschel.com/content/dam/herschel/products/50263/50263-00001-OS_01.jpg.sthumbnails.original.webp",
-        "slider_title": "Headwear"
+      "id": 4,
+      "images": "https://herschel.com/content/dam/herschel/products/50263/50263-00001-OS_01.jpg.sthumbnails.original.webp",
+      "slider_title": "Headwear"
     },
     {
-        "id": 5,
-        "images": "https://herschel.com/content/dam/herschel/products/10360/10360-02993-OS_01.jpg.sthumbnails.original.webp",
-        "slider_title": "Totes"
+      "id": 5,
+      "images": "https://herschel.com/content/dam/herschel/products/10360/10360-02993-OS_01.jpg.sthumbnails.original.webp",
+      "slider_title": "Totes"
     },
     {
-        "id": 6,
-        "images": "https://herschel.com/content/dam/herschel/products/11401/11401-00001-OS_01.jpg.sthumbnails.original.webp",
-        "slider_title": "Hip Packs"
+      "id": 6,
+      "images": "https://herschel.com/content/dam/herschel/products/11401/11401-00001-OS_01.jpg.sthumbnails.original.webp",
+      "slider_title": "Hip Packs"
     },
     {
-        "id": 7,
-        "images": "https://herschel.com/content/dam/herschel/products/11382/11382-00001-OS_01.jpg.sthumbnails.original.webp",
-        "slider_title": "Crossbodies"
+      "id": 7,
+      "images": "https://herschel.com/content/dam/herschel/products/11382/11382-00001-OS_01.jpg.sthumbnails.original.webp",
+      "slider_title": "Crossbodies"
     },
     {
-        "id": 8,
-        "images": "https://herschel.com/content/dam/herschel/products/11394/11394-Carousel.png.sthumbnails.original.webp",
-        "slider_title": "Wallets"
+      "id": 8,
+      "images": "https://herschel.com/content/dam/herschel/products/11394/11394-Carousel.png.sthumbnails.original.webp",
+      "slider_title": "Wallets"
     },
     {
-        "id": 9,
-        "images": "https://herschel.com/content/dam/herschel/products/30060/30060-00001-OS_01.jpg.sthumbnails.original.webp",
-        "slider_title": "Sleeves"
+      "id": 9,
+      "images": "https://herschel.com/content/dam/herschel/products/30060/30060-00001-OS_01.jpg.sthumbnails.original.webp",
+      "slider_title": "Sleeves"
     },
     {
-        "id": 10,
-        "images": "https://herschel.com/content/dam/herschel/products/30064/30064-00001-OS_01.jpg.sthumbnails.original.webp",
-        "slider_title": "Pouches"
+      "id": 10,
+      "images": "https://herschel.com/content/dam/herschel/products/30064/30064-00001-OS_01.jpg.sthumbnails.original.webp",
+      "slider_title": "Pouches"
     }
   ],
-  
-  "Shop_Categories":[
+  "Shop_Categories": [
     {
-        "id":1,
-        "images":"https://herschel.com/content/dam/herschel/lifestyle/2024-s1/campaigns/travel/hotspot/with-cta/product/D-24-S1-HeritageHardshell-Category_Hotspot-06.jpg.sthumbnails.original.webp",
-        "title":"Bags",
-        "discription": "We’re innovating the way you travel."
+      "id": 1,
+      "images": "https://herschel.com/content/dam/herschel/lifestyle/2024-s1/campaigns/travel/hotspot/with-cta/product/D-24-S1-HeritageHardshell-Category_Hotspot-06.jpg.sthumbnails.original.webp",
+      "title": "Bags",
+      "discription": "We’re innovating the way you travel."
     },
     {
-        "id":2,
-        "images":"https://herschel.com/content/dam/herschel/lifestyle/2024-s2/campaigns/softshell-launch/hotspots/D-24-S2-Softshell-CLP-Hotspot.jpg.sthumbnails.original.webp",
-        "title":"Just Landed",
-        "discription": "Luggage in new colors, just in time for your next trip."
+      "id": 2,
+      "images": "https://herschel.com/content/dam/herschel/lifestyle/2024-s2/campaigns/softshell-launch/hotspots/D-24-S2-Softshell-CLP-Hotspot.jpg.sthumbnails.original.webp",
+      "title": "Just Landed",
+      "discription": "Luggage in new colors, just in time for your next trip."
     },
     {
-        "id":3,
-        "images":"https://p1-tt-ipv6.byteimg.com/origin/pgc-image/dd915e59c1554da0902de406df6f1e49.jpg",
-        "title":"Headwear",
-        "discription": "Discover signature headwear in new limited-edition colors and prints."
+      "id": 3,
+      "images": "https://p1-tt-ipv6.byteimg.com/origin/pgc-image/dd915e59c1554da0902de406df6f1e49.jpg",
+      "title": "Headwear",
+      "discription": "Discover signature headwear in new limited-edition colors and prints."
     },
     {
-        "id":4,
-        "images":"https://thefashiontag.com/wp-content/uploads/2015/11/street-style-men-bags-1.jpg",
-        "title":"Accessories",
-        "discription": "Small essentials made to grab and go."
+      "id": 4,
+      "images": "https://thefashiontag.com/wp-content/uploads/2015/11/street-style-men-bags-1.jpg",
+      "title": "Accessories",
+      "discription": "Small essentials made to grab and go."
     },
     {
-        "id":5,
-        "images":"https://cdn.imweb.me/upload/S20210615f90065c76b269/e2785d86fcea9.jpg",
-        "title":"Spring 2024",
-        "discription": "Introducing our seasonal edit."
+      "id": 5,
+      "images": "https://cdn.imweb.me/upload/S20210615f90065c76b269/e2785d86fcea9.jpg",
+      "title": "Spring 2024",
+      "discription": "Introducing our seasonal edit."
     },
     {
-        "id":6,
-        "images":"https://i.pinimg.com/736x/3b/9b/17/3b9b1752dd6a710b33461bc8fbd1c378.jpg",
-        "title":"Little Herschel",
-        "discription": "Backpacks and accessories for little explorers."
+      "id": 6,
+      "images": "https://i.pinimg.com/736x/3b/9b/17/3b9b1752dd6a710b33461bc8fbd1c378.jpg",
+      "title": "Little Herschel",
+      "discription": "Backpacks and accessories for little explorers."
     }
   ],
-  
-  "Arrivals_Data":[
+  "Arrivals_Data": [
     {
       "id": 1,
       "image_url": "https://herschel.com/content/dam/herschel/products/40082/40082-00001-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Herschel Heritage™ Softshell Luggage | Large Carry On - 37L",
-      "price": "$200.00"
+      "price": "$200.00",
+      "category": "Soft shell"
     },
     {
       "id": 2,
       "image_url": "https://herschel.com/content/dam/herschel/products/40083/40083-00919-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Herschel Heritage™ Softshell Luggage | Medium - 92L",
-      "price": "$250.00"
+      "price": "$250.00",
+      "category": "Soft shell"
     },
     {
       "id": 3,
       "image_url": "https://herschel.com/content/dam/herschel/products/11460/11460-02077-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Rome Backpack | Packable - 21.3L",
-      "price": "$50.00"
+      "price": "$50.00",
+      "category": "Backpack"
     },
     {
       "id": 4,
       "image_url": "https://herschel.com/content/dam/herschel/products/11461/11461-06219-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Portland Tote | Packable - 23.7L",
-      "price": "$40.00"
+      "price": "$40.00",
+      "category": "Totes"
     },
     {
       "id": 5,
       "image_url": "https://herschel.com/content/dam/herschel/products/30097/30097-00001-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Kyoto Packing Cubes",
-      "price": "$45.00"
+      "price": "$45.00",
+      "category": "organizers"
     },
     {
       "id": 6,
       "image_url": "https://herschel.com/content/dam/herschel/products/11458/11458-04124-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Pacific Daypack - 23.5L",
-      "price": "$55.00"
+      "price": "$55.00",
+      "category": "Hip Packs"
     },
     {
       "id": 7,
       "image_url": "https://herschel.com/content/dam/herschel/products/11459/11459-04260-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Inga Tote - 16.5L",
-      "price": "$45.00"
+      "price": "$45.00",
+      "category": "Totes"
     },
     {
       "id": 8,
       "image_url": "https://herschel.com/content/dam/herschel/products/11198/11198-06169-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Herschel Heritage™ Hardshell Luggage | Large Carry On - 43L",
-      "price": "$250.00"
+      "price": "$250.00",
+      "category": "Hard Shells"
     },
     {
       "id": 9,
       "image_url": "https://herschel.com/content/dam/herschel/products/11462/11462-06163-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Herschel Nova™ Backpack | Jade Purple Brown - 18L",
-      "price": "$100.00"
+      "price": "$100.00",
+      "category": "Backpack"
     },
     {
       "id": 10,
       "image_url": "https://herschel.com/content/dam/herschel/products/30096/30096-06162-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Chapter Travel Kit | Jade Purple Brown - 5L",
-      "price": "$40.00"
+      "price": "$40.00",
+      "category": "organizers"
     },
     {
       "id": 11,
       "image_url": "https://herschel.com/content/dam/herschel/products/30098/30098-06163-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Kyoto Packing Cubes | Jade Purple Brown",
-      "price": "$50.00"
+      "price": "$50.00",
+      "category": "organizers"
     },
     {
       "id": 12,
       "image_url": "https://herschel.com/content/dam/herschel/products/11463/11463-06163-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Settlement Hip Pack | Jade Purple Brown - 2L",
-      "price": "$50.00"
+      "price": "$50.00",
+      "category": "organizers"
     },
     {
       "id": 13,
       "image_url": "https://herschel.com/content/dam/herschel/products/11448/11448-06067-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Maia Weekender - 40L",
-      "price": "$150.00"
+      "price": "$150.00",
+      "category": ""
     },
     {
       "id": 14,
       "image_url": "https://herschel.com/content/dam/herschel/products/11447/11447-05456-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Joana Tote - 20.5L",
-      "price": "$110.00"
+      "price": "$110.00",
+      "category": "Totes"
     },
     {
       "id": 15,
       "image_url": "https://herschel.com/content/dam/herschel/products/11446/11446-00001-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Beatrix Backpack - 20L",
-      "price": "$120.00"
+      "price": "$120.00",
+      "category": "Backpack"
     },
     {
       "id": 16,
       "image_url": "https://herschel.com/content/dam/herschel/products/11445/11445-06067-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Thalia Crossbody - 2L",
-      "price": "$80.00"
+      "price": "$80.00",
+      "category": ""
     },
     {
       "id": 17,
       "image_url": "https://herschel.com/content/dam/herschel/products/11197/11197-06067-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Herschel Heritage™ Hardshell Luggage | Carry On - 35L",
-      "price": "$225.00"
+      "price": "$225.00",
+      "category": "Hard Shells"
     },
     {
       "id": 18,
       "image_url": "https://herschel.com/content/dam/herschel/products/11200/11200-06219-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Herschel Heritage™ Hardshell Luggage | Large - 95L",
-      "price": "$325.00"
+      "price": "$325.00",
+      "category": "Hard Shells"
     },
     {
       "id": 19,
       "image_url": "https://herschel.com/content/dam/herschel/products/11436/11436-04281-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Purcell Backpack | Tuff Gong - 25L",
-      "price": "$130.00"
+      "price": "$130.00",
+      "category": "Backpack"
     },
     {
       "id": 20,
       "image_url": "https://herschel.com/content/dam/herschel/products/11437/11437-04281-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Bamfield Tote Mid-Volume | Tuff Gong - 34L",
-      "price": "$110.00"
+      "price": "$110.00",
+      "category": "Totes"
     },
     {
       "id": 21,
       "image_url": "https://herschel.com/content/dam/herschel/products/11438/11438-04281-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Form Large",
-      "price": "$60.00"
+      "price": "$60.00",
+      "category": ""
     },
     {
       "id": 22,
       "image_url": "https://herschel.com/content/dam/herschel/products/50163/50163-06166-LX_01.jpg.sthumbnails.680.850.webp",
       "title": "Norman Bucket Hat",
-      "price": "$35.00"
+      "price": "$35.00",
+      "category": "Hat"
     },
     {
       "id": 23,
       "image_url": "https://herschel.com/content/dam/herschel/products/50270/50270-06129-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Sylas Cap Classic | Tuff Gong",
-      "price": "$35.00"
+      "price": "$35.00",
+      "category": "Hat"
     },
     {
       "id": 24,
       "image_url": "https://herschel.com/content/dam/herschel/products/11449/11449-02077-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Herschel Novel™ Duffle | Carry On - 26.5L",
-      "price": "$100.00"
+      "price": "$100.00",
+      "category": "duffle"
     },
     {
       "id": 25,
       "image_url": "https://herschel.com/content/dam/herschel/products/11396/11396-06165-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Herschel Novel™ Duffle - 43L",
-      "price": "$110.00"
+      "price": "$110.00",
+      "category": "duffle"
     },
     {
       "id": 26,
       "image_url": "https://herschel.com/content/dam/herschel/products/11421/11421-00001-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Settlement Backpack | Quilted - 18L",
-      "price": "$95.00"
+      "price": "$95.00",
+      "category": "Backpack"
     },
     {
       "id": 27,
       "image_url": "https://herschel.com/content/dam/herschel/products/11419/11419-00001-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Settlement Hip Pack | Quilted - 2L",
-      "price": "$55.00"
+      "price": "$55.00",
+      "category": "Hip Packs"
     },
     {
       "id": 28,
       "image_url": "https://herschel.com/content/dam/herschel/products/11420/11420-00001-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Retreat Tote | Quilted - 20L",
-      "price": "$90.00"
+      "price": "$90.00",
+      "category": "Totes"
     },
     {
       "id": 29,
       "image_url": "https://herschel.com/content/dam/herschel/products/11194/11194-06108-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Roll Top Backpack | Weather Resistant - 23L",
-      "price": "$115.00"
+      "price": "$115.00",
+      "category": "Backpack"
     },
     {
       "id": 30,
       "image_url": "https://herschel.com/content/dam/herschel/products/10999/10999-02077-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Herschel Survey™ Backpack | Weather Resistant - 17.5L",
-      "price": "$110.00"
+      "price": "$110.00",
+      "category": "Backpack"
     },
     {
       "id": 31,
       "image_url": "https://herschel.com/content/dam/herschel/products/11397/11397-00001-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Herschel Retreat™ Backpack - 23L",
-      "price": "$110.00"
+      "price": "$110.00",
+      "category": "Backpack"
     },
     {
       "id": 32,
       "image_url": "https://herschel.com/content/dam/herschel/products/11015/11015-00001-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Classic Backpack XL | Weather Resistant - 30L",
-      "price": "$95.00"
+      "price": "$95.00",
+      "category": "Backpack"
     },
     {
       "id": 33,
       "image_url": "https://herschel.com/content/dam/herschel/products/11390/11390-00001-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Herschel Little America™ Backpack - 30L",
-      "price": "$130.00"
+      "price": "$130.00",
+      "category": "Backpack"
     },
     {
       "id": 34,
       "image_url": "https://herschel.com/content/dam/herschel/products/11380/11380-01866-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Herschel Classic™ Backpack | XL - 26L",
-      "price": "$65.00"
+      "price": "$65.00",
+      "category": "Backpack"
     },
     {
       "id": 35,
       "image_url": "https://herschel.com/content/dam/herschel/products/11405/11405-00055-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Pop Quiz Backpack - 25L",
-      "price": "$95.00"
+      "price": "$95.00",
+      "category": "Backpack"
     },
     {
       "id": 36,
       "image_url": "https://herschel.com/content/dam/herschel/products/11383/11383-05456-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Herschel Heritage™ Backpack - 24L",
-      "price": "$80.00"
+      "price": "$80.00",
+      "category": "Backpack"
     },
     {
       "id": 37,
       "image_url": "https://herschel.com/content/dam/herschel/products/11289/11289-00919-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Kaslo Daypack | Tech - 20L",
-      "price": "$130.00"
+      "price": "$130.00",
+      "category": "Tech"
     },
     {
       "id": 38,
       "image_url": "https://herschel.com/content/dam/herschel/products/11381/11381-06091-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Herschel Classic Gym Bag - 27L",
-      "price": "$70.00"
+      "price": "$70.00",
+      "category": "Backpack"
     },
     {
       "id": 39,
       "image_url": "https://herschel.com/content/dam/herschel/products/11388/11388-03548-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Herschel Heritage™ Shoulder Bag - 8L",
-      "price": "$60.00"
+      "price": "$60.00",
+      "category": "Backpack"
     },
     {
       "id": 40,
       "image_url": "https://herschel.com/content/dam/herschel/products/11389/11389-06097-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Herschel Heritage™ Backpack | Youth - 20L",
-      "price": "$55.00"
+      "price": "$55.00",
+      "category": "Backpack"
     },
     {
       "id": 41,
       "image_url": "https://herschel.com/content/dam/herschel/products/11288/11288-00919-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Kaslo Backpack | Tech - 30L",
-      "price": "$150.00"
+      "price": "$150.00",
+      "category": "Backpack"
     },
     {
       "id": 42,
       "image_url": "https://herschel.com/content/dam/herschel/products/11406/11406-04281-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Pop Quiz Hip Pack - 3.5L",
-      "price": "$45.00"
+      "price": "$45.00",
+      "category": "Hip Packs"
     },
     {
       "id": 43,
       "image_url": "https://herschel.com/content/dam/herschel/products/11391/11391-06067-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Herschel Little America™ Backpack | Mid-Volume - 21L",
-      "price": "$120.00"
+      "price": "$120.00",
+      "category": "Backpack"
     },
     {
       "id": 44,
       "image_url": "https://herschel.com/content/dam/herschel/products/11407/11407-06105-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Settlement Backpack - 23L",
-      "price": "$80.00"
+      "price": "$80.00",
+      "category": "Backpack"
     },
     {
       "id": 45,
       "image_url": "https://herschel.com/content/dam/herschel/products/11291/11291-04281-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Herschel Novel™ Duffle | Tech - 45L",
-      "price": "$160.00"
+      "price": "$160.00",
+      "category": "duffle"
     },
     {
       "id": 46,
       "image_url": "https://herschel.com/content/dam/herschel/products/11400/11400-00001-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Herschel Retreat™ Backpack | Small - 17L",
-      "price": "$80.00"
+      "price": "$80.00",
+      "category": "Backpack"
     },
     {
       "id": 47,
       "image_url": "https://herschel.com/content/dam/herschel/products/11377/11377-00001-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Herschel Classic™ Backpack - 20L",
-      "price": "$55.00"
+      "price": "$55.00",
+      "category": "Backpack"
     },
     {
       "id": 48,
       "image_url": "https://herschel.com/content/dam/herschel/products/11410/11410-06067-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Strand Duffle - 29L",
-      "price": "$80.00"
+      "price": "$80.00",
+      "category": "duffle"
     },
     {
       "id": 49,
       "image_url": "https://herschel.com/content/dam/herschel/products/11411/11411-00001-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Strand Duffle | Diaper Bag - 24L",
-      "price": "$125.00"
+      "price": "$125.00",
+      "category": "duffle"
     },
     {
       "id": 50,
       "image_url": "https://herschel.com/content/dam/herschel/products/11401/11401-00001-OS_01.jpg.sthumbnails.680.850.webp",
       "title": "Herschel Retreat™ Backpack | Mid-Volume - 14L",
-      "price": "$100.00"
-    },
-    {
-      "id": 51,
-      "image_url": "https://herschel.com/content/dam/herschel/products/50498/50498-00001-ALLSIZES_01.jpg.sthumbnails.680.850.webp",
-      "title": "Santa Monica Tourist Crew | Men's",
-      "price": "$70.00"
-    },
-    {
-      "id": 52,
-      "image_url": "https://herschel.com/content/dam/herschel/products/30078/30078-00001-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Sprout Change Mat",
-      "price": "$40.00"
-    },
-    {
-      "id": 53,
-      "image_url": "https://herschel.com/content/dam/herschel/products/50516/50516-06531-ALLSIZES_01.jpg.sthumbnails.680.850.webp",
-      "title": "Vancouver Crest Tee | Men's",
-      "price": "$35.00"
-    },
-    {
-      "id": 54,
-      "image_url": "https://herschel.com/content/dam/herschel/products/11014/11014-05905-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Thomas Wallet | Orion",
-      "price": "$65.00"
-    },
-    {
-      "id": 55,
-      "image_url": "https://herschel.com/content/dam/herschel/products/50285/50285-06140-ALLSIZES_01.jpg.sthumbnails.680.850.webp",
-      "title": "Insignia Long Sleeve | Men's",
-      "price": "$40.00"
-    },
-    {
-      "id": 56,
-      "image_url": "https://herschel.com/content/dam/herschel/products/11146/11146-00001-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Charlie Cardholder Wallet | Leather",
-      "price": "$45.00"
-    },
-    {
-      "id": 57,
-      "image_url": "https://herschel.com/content/dam/herschel/products/50279/50279-01149-ALLSIZES_01.jpg.sthumbnails.680.850.webp",
-      "title": "Basic Tee | Men's",
-      "price": "$35.00"
-    },
-    {
-      "id": 58,
-      "image_url": "https://herschel.com/content/dam/herschel/products/1129/1129-0001-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Baby Beanie | 0-6 Months",
-      "price": "$20.00"
-    },
-    {
-      "id": 59,
-      "image_url": "https://herschel.com/content/dam/herschel/products/30072/30072-00001-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Roy Wallet",
-      "price": "$30.00"
-    },
-    {
-      "id": 60,
-      "image_url": "https://herschel.com/content/dam/herschel/products/50415/50415-06515-ALLSIZES_01.jpg.sthumbnails.680.850.webp",
-      "title": "Banff Rundle Hoodie | Men's",
-      "price": "$110.00"
-    },
-    {
-      "id": 61,
-      "image_url": "https://herschel.com/content/dam/herschel/products/1065/1065-0001-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Elmer Beanie",
-      "price": "$25.00"
-    },
-    {
-      "id": 62,
-      "image_url": "https://herschel.com/content/dam/herschel/products/30075/30075-00001-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Spokane Sleeve | 13 Inch",
-      "price": "$55.00"
-    },
-    {
-      "id": 63,
-      "image_url": "https://herschel.com/content/dam/herschel/products/50145/50145-05643-ALLSIZES_01.jpg.sthumbnails.680.850.webp",
-      "title": "Work Pant | Men's",
-      "price": "$100.00"
-    },
-    {
-      "id": 64,
-      "image_url": "https://herschel.com/content/dam/herschel/products/11386/11386-00001-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Classic Mini Backpack | Kids'",
-      "price": "$40.00"
-    },
-    {
-      "id": 65,
-      "image_url": "https://herschel.com/content/dam/herschel/products/50283/50283-06647-ALLSIZES_01.jpg.sthumbnails.680.850.webp",
-      "title": "Rockaway Long Sleeve | Men's",
-      "price": "$50.00"
-    },
-    {
-      "id": 66,
-      "image_url": "https://herschel.com/content/dam/herschel/products/30076/30076-00001-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Spokane Sleeve | 15 Inch",
-      "price": "$60.00"
-    },
-    {
-      "id": 67,
-      "image_url": "https://herschel.com/content/dam/herschel/products/50143/50143-06345-ALLSIZES_01.jpg.sthumbnails.680.850.webp",
-      "title": "Coaches Jacket | Men's",
-      "price": "$90.00"
-    },
-    {
-      "id": 68,
-      "image_url": "https://herschel.com/content/dam/herschel/products/10249/10249-00001-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Seventeen Hip Pack",
-      "price": "$35.00"
-    },
-    {
-      "id": 69,
-      "image_url": "https://herschel.com/content/dam/herschel/products/1060/1060-0001-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Quartz Beanie",
-      "price": "$30.00"
-    },
-    {
-      "id": 70,
-      "image_url": "https://herschel.com/content/dam/herschel/products/50287/50287-06502-ALLSIZES_01.jpg.sthumbnails.680.850.webp",
-      "title": "Insignia T-Shirt | Men's",
-      "price": "$30.00"
-    },
-    {
-      "id": 71,
-      "image_url": "https://herschel.com/content/dam/herschel/products/10307/10307-00001-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Seventeen Hip Pack | Woodland Camo",
-      "price": "$35.00"
-    },
-    {
-      "id": 72,
-      "image_url": "https://herschel.com/content/dam/herschel/products/50407/50407-06507-ALLSIZES_01.jpg.sthumbnails.680.850.webp",
-      "title": "Strand Shoulder Bag | Men's",
-      "price": "$70.00"
-    },
-    {
-      "id": 73,
-      "image_url": "https://herschel.com/content/dam/herschel/products/1133/1133-0001-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Bamfield Mid-Volume Tote",
-      "price": "$65.00"
-    },
-    {
-      "id": 74,
-      "image_url": "https://herschel.com/content/dam/herschel/products/50420/50420-06520-ALLSIZES_01.jpg.sthumbnails.680.850.webp",
-      "title": "Deane Messenger | Men's",
-      "price": "$85.00"
-    },
-    {
-      "id": 75,
-      "image_url": "https://herschel.com/content/dam/herschel/products/11344/11344-00001-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Classic Mini Backpack | Kids'",
-      "price": "$40.00"
-    },
-    {
-      "id": 76,
-      "image_url": "https://herschel.com/content/dam/herschel/products/50150/50150-0001-ALLSIZES_01.jpg.sthumbnails.680.850.webp",
-      "title": "Gore-Tex® Pant | Men's",
-      "price": "$250.00"
-    },
-    {
-      "id": 77,
-      "image_url": "https://herschel.com/content/dam/herschel/products/30077/30077-00001-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Spokane Sleeve | 17 Inch",
-      "price": "$65.00"
-    },
-    {
-      "id": 78,
-      "image_url": "https://herschel.com/content/dam/herschel/products/50159/50159-06640-ALLSIZES_01.jpg.sthumbnails.680.850.webp",
-      "title": "Oxford Shirt | Men's",
-      "price": "$70.00"
-    },
-    {
-      "id": 79,
-      "image_url": "https://herschel.com/content/dam/herschel/products/10300/10300-00001-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Chapter Travel Kit",
-      "price": "$35.00"
-    },
-    {
-      "id": 80,
-      "image_url": "https://herschel.com/content/dam/herschel/products/1061/1061-0001-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Albert Beanie",
-      "price": "$25.00"
-    },
-    {
-      "id": 81,
-      "image_url": "https://herschel.com/content/dam/herschel/products/30071/30071-00001-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Dawson Sleeve | 13 Inch",
-      "price": "$50.00"
-    },
-    {
-      "id": 82,
-      "image_url": "https://herschel.com/content/dam/herschel/products/50485/50485-00001-ALLSIZES_01.jpg.sthumbnails.680.850.webp",
-      "title": "City Tote | Women's",
-      "price": "$60.00"
-    },
-    {
-      "id": 83,
-      "image_url": "https://herschel.com/content/dam/herschel/products/50281/50281-06501-ALLSIZES_01.jpg.sthumbnails.680.850.webp",
-      "title": "Insignia Hoodie | Men's",
-      "price": "$70.00"
-    },
-    {
-      "id": 84,
-      "image_url": "https://herschel.com/content/dam/herschel/products/50294/50294-06645-ALLSIZES_01.jpg.sthumbnails.680.850.webp",
-      "title": "Trendy T-Shirt | Women's",
-      "price": "$35.00"
-    },
-    {
-      "id": 85,
-      "image_url": "https://herschel.com/content/dam/herschel/products/10301/10301-00001-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Chapter Travel Kit | 3L",
-      "price": "$30.00"
-    },
-    {
-      "id": 86,
-      "image_url": "https://herschel.com/content/dam/herschel/products/50296/50296-06642-ALLSIZES_01.jpg.sthumbnails.680.850.webp",
-      "title": "Trendy T-Shirt | Women's",
-      "price": "$35.00"
-    },
-    {
-      "id": 87,
-      "image_url": "https://herschel.com/content/dam/herschel/products/10296/10296-00001-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Cotton Casuals Daypack | S",
-      "price": "$100.00"
-    },
-    {
-      "id": 88,
-      "image_url": "https://herschel.com/content/dam/herschel/products/50041/50041-00001-ALLSIZES_01.jpg.sthumbnails.680.850.webp",
-      "title": "Mountain Rainwear Jacket | Men's",
-      "price": "$130.00"
-    },
-    {
-      "id": 89,
-      "image_url": "https://herschel.com/content/dam/herschel/products/50539/50539-00001-ALLSIZES_01.jpg.sthumbnails.680.850.webp",
-      "title": "Velour Ashland Cap | Men's",
-      "price": "$40.00"
-    },
-    {
-      "id": 90,
-      "image_url": "https://herschel.com/content/dam/herschel/products/50295/50295-06643-ALLSIZES_01.jpg.sthumbnails.680.850.webp",
-      "title": "Trendy T-Shirt | Women's",
-      "price": "$35.00"
-    },
-    {
-      "id": 91,
-      "image_url": "https://herschel.com/content/dam/herschel/products/1133/1133-0001-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Bamfield Mid-Volume Tote",
-      "price": "$65.00"
-    },
-    {
-      "id": 92,
-      "image_url": "https://herschel.com/content/dam/herschel/products/10460/10460-06533-ALLSIZES_01.jpg.sthumbnails.680.850.webp",
-      "title": "Berwick Beanie | Kids'",
-      "price": "$25.00"
-    },
-    {
-      "id": 93,
-      "image_url": "https://herschel.com/content/dam/herschel/products/50321/50321-00001-ALLSIZES_01.jpg.sthumbnails.680.850.webp",
-      "title": "Canvas Workwear Pant | Men's",
-      "price": "$90.00"
-    },
-    {
-      "id": 94,
-      "image_url": "https://herschel.com/content/dam/herschel/products/50282/50282-06650-ALLSIZES_01.jpg.sthumbnails.680.850.webp",
-      "title": "Rockaway Long Sleeve | Men's",
-      "price": "$50.00"
-    },
-    {
-      "id": 95,
-      "image_url": "https://herschel.com/content/dam/herschel/products/10292/10292-00001-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Classic Daypack | XL",
-      "price": "$70.00"
-    },
-    {
-      "id": 96,
-      "image_url": "https://herschel.com/content/dam/herschel/products/50520/50520-00001-ALLSIZES_01.jpg.sthumbnails.680.850.webp",
-      "title": "Alpine Trail Cap | Men's",
-      "price": "$45.00"
-    },
-    {
-      "id": 97,
-      "image_url": "https://herschel.com/content/dam/herschel/products/50407/50407-06507-ALLSIZES_01.jpg.sthumbnails.680.850.webp",
-      "title": "Strand Shoulder Bag | Men's",
-      "price": "$70.00"
-    },
-    {
-      "id": 98,
-      "image_url": "https://herschel.com/content/dam/herschel/products/50436/50436-00001-ALLSIZES_01.jpg.sthumbnails.680.850.webp",
-      "title": "Three-Quarter Inch Belt",
-      "price": "$30.00"
-    },
-    {
-      "id": 99,
-      "image_url": "https://herschel.com/content/dam/herschel/products/10249/10249-00001-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Seventeen Hip Pack",
-      "price": "$35.00"
+      "price": "$100.00",
+      "category": "Backpack"
     }
   ]
-  
 }
-
-
