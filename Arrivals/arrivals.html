@@ -55,7 +55,7 @@
         class="nav-logo col-lg-1 d-flex justify-content-between col-md-3 col-sm-3 col-5"
       >
         <!-- Login And Register -->
-        <a href="/login.html"><i class="bi bi-person fs-6" id="login"></i></a>
+        <a href="/Login/login.html"><i class="bi bi-person fs-6" id="login"></i></a>
 
         <!-- Cart Btn To Show Cart Items -->
         <button
@@ -148,111 +148,42 @@
 
     <!-- Cart Section -->
     <div
-      class="offcanvas offcanvas-end"
-      tabindex="-1"
-      id="offcanvasRight"
-      aria-labelledby="offcanvasRightLabel"
-    >
-      <div class="offcanvas-header">
-        <h5 id="offcanvasRightLabel">Your Selected Orders</h5>
-        <button
-          type="button"
-          class="btn-close text-reset"
-          data-bs-dismiss="offcanvas"
-          aria-label="Close"
-        ></button>
-      </div>
-      <div class="offcanvas-body">
-        <!-- Show when Cart Is Empty -->
-        <h6>Your Cart Is Empty!!</h6>
+    class="offcanvas offcanvas-end"
+    tabindex="-1"
+    id="offcanvasRight"
+    aria-labelledby="offcanvasRightLabel"
+  >
+    <div class="offcanvas-header">
+      <h5 id="offcanvasRightLabel">Your Selected Orders</h5>
+      <button
+        type="button"
+        class="btn-close text-reset"
+        data-bs-dismiss="offcanvas"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div class="offcanvas-body">
+      <!-- Show when Cart Is Empty -->
+      <h6>Your Cart Is Empty!!</h6>
 
-        <!-- Cart Items -->
-        <div class="cart-items">
-          <div class="column col-12 d-flex flex-wrap justify-content-evenly">
-            <div class="cart-item col-lg-4 col-md-4 col-sm-4 col-6">
-              <img
-                src="https://herschel.com/content/dam/herschel/products/30097/30097-00001-OS_01.jpg.sthumbnails.300.375.webp"
-                alt=""
-                class="col-12"
-              />
-              <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
-              <p id="cart-item-price">$45.00</p>
-              <p id="cart-item-color">Color: Black</p>
-            </div>
-            <div class="cart-item col-lg-4 col-md-4 col-sm-4 col-6">
-              <img
-                src="https://herschel.com/content/dam/herschel/products/30097/30097-00001-OS_01.jpg.sthumbnails.300.375.webp"
-                alt=""
-                class="col-12"
-              />
-              <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
-              <p id="cart-item-price">$45.00</p>
-              <p id="cart-item-color">Color: Black</p>
-            </div>
-            <div class="cart-item col-lg-4 col-md-4 col-sm-4 col-6">
-              <img
-                src="https://herschel.com/content/dam/herschel/products/30063/30063-02077-OS_01.jpg.sthumbnails.300.375.webp"
-                alt=""
-                class="col-12"
-              />
-              <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
-              <p id="cart-item-price">$45.00</p>
-              <p id="cart-item-color">Color: Black</p>
-            </div>
-            <div class="cart-item col-lg-4 col-md-4 col-sm-4 col-6">
-              <img
-                src="https://herschel.com/content/dam/herschel/products/30063/30063-02077-OS_01.jpg.sthumbnails.300.375.webp"
-                alt=""
-                class="col-12"
-              />
-              <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
-              <p id="cart-item-price">$45.00</p>
-              <p id="cart-item-color">Color: Black</p>
-            </div>
-            <div class="cart-item col-lg-4 col-md-4 col-sm-4 col-6">
-              <img
-                src="https://herschel.com/content/dam/herschel/products/30063/30063-02077-OS_01.jpg.sthumbnails.300.375.webp"
-                alt=""
-                class="col-12"
-              />
-              <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
-              <p id="cart-item-price">$45.00</p>
-              <p id="cart-item-color">Color: Black</p>
-            </div>
-            <div class="cart-item col-lg-4 col-md-4 col-sm-4 col-6">
-              <img
-                src="https://herschel.com/content/dam/herschel/products/30063/30063-02077-OS_01.jpg.sthumbnails.300.375.webp"
-                alt=""
-                class="col-12"
-              />
-              <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
-              <p id="cart-item-price">$45.00</p>
-              <p id="cart-item-color">Color: Black</p>
-            </div>
-            <div class="cart-item col-lg-4 col-md-4 col-sm-4 col-6">
-              <img
-                src="https://herschel.com/content/dam/herschel/products/30063/30063-02077-OS_01.jpg.sthumbnails.300.375.webp"
-                alt=""
-                class="col-12"
-              />
-              <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
-              <p id="cart-item-price">$45.00</p>
-              <p id="cart-item-color">Color: Black</p>
-            </div>
-            <div class="cart-item col-lg-4 col-md-4 col-sm-4 col-6">
-              <img
-                src="https://herschel.com/content/dam/herschel/products/30063/30063-02077-OS_01.jpg.sthumbnails.300.375.webp"
-                alt=""
-                class="col-12"
-              />
-              <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
-              <p id="cart-item-price">$45.00</p>
-              <p id="cart-item-color">Color: Black</p>
-            </div>
+      <!-- Cart Items -->
+      <div class="cart-items">
+
+        <div class="column col-12 d-flex flex-wrap justify-content-evenly" id="cart-card">
+          <div class="cart-item col-lg-4 col-md-4 col-sm-4 col-6">
+            <img
+              src="https://herschel.com/content/dam/herschel/products/30097/30097-00001-OS_01.jpg.sthumbnails.300.375.webp"
+              alt=""
+              class="col-12"
+            />
+            <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
+            <p id="cart-item-price">$45.00</p>
           </div>
+         
         </div>
       </div>
     </div>
+     </div>
 
     <!-- Arrivals Section -->
     <div class="Arrivals">

@@ -46,7 +46,7 @@
           class="nav-logo col-lg-1 d-flex justify-content-between col-md-3 col-sm-3 col-5"
         >
           <!-- Login And Register -->
-          <a href="/login.html"><i class="bi bi-person fs-6" id="login"></i></a>
+          <a href="/Login/login.html"><i class="bi bi-person fs-6" id="login"></i></a>
 
           <!-- Cart Btn To Show Cart Items -->
           <button
@@ -153,14 +153,14 @@
            aria-label="Close"
          ></button>
        </div>
-
        <div class="offcanvas-body">
          <!-- Show when Cart Is Empty -->
          <h6>Your Cart Is Empty!!</h6>
 
          <!-- Cart Items -->
          <div class="cart-items">
-           <div class="column col-12 d-flex flex-wrap justify-content-evenly">
+
+           <div class="column col-12 d-flex flex-wrap justify-content-evenly" id="cart-card">
              <div class="cart-item col-lg-4 col-md-4 col-sm-4 col-6">
                <img
                  src="https://herschel.com/content/dam/herschel/products/30097/30097-00001-OS_01.jpg.sthumbnails.300.375.webp"
@@ -169,84 +169,139 @@
                />
                <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
                <p id="cart-item-price">$45.00</p>
-               <p id="cart-item-color">Color: Black</p>
              </div>
-             <div class="cart-item col-lg-4 col-md-4 col-sm-4 col-6">
-               <img
-                 src="https://herschel.com/content/dam/herschel/products/30097/30097-00001-OS_01.jpg.sthumbnails.300.375.webp"
-                 alt=""
-                 class="col-12"
-               />
-               <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
-               <p id="cart-item-price">$45.00</p>
-               <p id="cart-item-color">Color: Black</p>
-             </div>
-             <div class="cart-item col-lg-4 col-md-4 col-sm-4 col-6">
-               <img
-                 src="https://herschel.com/content/dam/herschel/products/30063/30063-02077-OS_01.jpg.sthumbnails.300.375.webp"
-                 alt=""
-                 class="col-12"
-               />
-               <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
-               <p id="cart-item-price">$45.00</p>
-               <p id="cart-item-color">Color: Black</p>
-             </div>
-             <div class="cart-item col-lg-4 col-md-4 col-sm-4 col-6">
-               <img
-                 src="https://herschel.com/content/dam/herschel/products/30063/30063-02077-OS_01.jpg.sthumbnails.300.375.webp"
-                 alt=""
-                 class="col-12"
-               />
-               <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
-               <p id="cart-item-price">$45.00</p>
-               <p id="cart-item-color">Color: Black</p>
-             </div>
-             <div class="cart-item col-lg-4 col-md-4 col-sm-4 col-6">
-               <img
-                 src="https://herschel.com/content/dam/herschel/products/30063/30063-02077-OS_01.jpg.sthumbnails.300.375.webp"
-                 alt=""
-                 class="col-12"
-               />
-               <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
-               <p id="cart-item-price">$45.00</p>
-               <p id="cart-item-color">Color: Black</p>
-             </div>
-             <div class="cart-item col-lg-4 col-md-4 col-sm-4 col-6">
-               <img
-                 src="https://herschel.com/content/dam/herschel/products/30063/30063-02077-OS_01.jpg.sthumbnails.300.375.webp"
-                 alt=""
-                 class="col-12"
-               />
-               <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
-               <p id="cart-item-price">$45.00</p>
-               <p id="cart-item-color">Color: Black</p>
-             </div>
-             <div class="cart-item col-lg-4 col-md-4 col-sm-4 col-6">
-               <img
-                 src="https://herschel.com/content/dam/herschel/products/30063/30063-02077-OS_01.jpg.sthumbnails.300.375.webp"
-                 alt=""
-                 class="col-12"
-               />
-               <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
-               <p id="cart-item-price">$45.00</p>
-               <p id="cart-item-color">Color: Black</p>
-             </div>
-             <div class="cart-item col-lg-4 col-md-4 col-sm-4 col-6">
-               <img
-                 src="https://herschel.com/content/dam/herschel/products/30063/30063-02077-OS_01.jpg.sthumbnails.300.375.webp"
-                 alt=""
-                 class="col-12"
-               />
-               <p id="cart-item-name" class="mt-2">Kyoto Packing Cubes</p>
-               <p id="cart-item-price">$45.00</p>
-               <p id="cart-item-color">Color: Black</p>
-             </div>
+            
            </div>
          </div>
        </div>
      </div>
 
+     <div class="wraper col-12 d-lg-flex d-md-flex mt-4">
+      
+      <div class="left col-lg-6 col-md-6">
+        <div class="images col-12 d-flex flex-wrap">
+          <img src="https://herschel.com/content/dam/herschel/products/40082/40082-00001-OS_01.jpg.sthumbnails.2000.2500.webp" alt="" class="col-12 p-5" id="images">
+        </div>
+      </div>
+
+      <div class="right col-lg-6 p-lg-5 p-3 col-md-6">
+        <h3 class="fw-bold lh-sm" id="title">Herschel Heritage™ Softshell Luggage | Large Carry On - 37L</h3>
+        <h5 class="fw-bold lh-1" >Price: $ <span id="price">200.00</span></h6>
+          <P>or 4 interest-free payments of $50.00 with <span class="badge bg-dark">afterpay</span></P>
+          <span>Planning Your Next Trip? <br>
+            Use our chart to Compare Softshell Luggag</span>
+            <hr>
+        <h6 class="lh-1">Category: <span id="category">Bag</span></h6>
+        <button class="btn col-12 bg-dark text-light mt-3">Add To Cart</button>
+        <h5 class="mt-3 fw-bold ">Details</h5>
+
+          <ul>
+            <li> ·Your name, user name, email and password when you register for an account on the Herschel Sites<br>
+              Your age, telephone number, date of birth, gender, personal preferences, purchase history and other information stored in your account.</li>
+              <li>Your name and email address when you subscribe to newsletters or other marketing materials.</li>
+              <li>Your name, address, and credit card information when you complete a purchase.</li>
+              <li>Your name, email address, purchase history, other details you provide and a copy of your communications when you contact our customer service team.</li>
+              <li>Your personal preferences and opinions when you respond to consumer survey requests, or other requests for your opinion, preferences or suggestions.</li>
+              <li>Your name, age, address and social media handles when you participate in contests, sweepstakes and other promotions on our website or our social channels.</li>
+              <li>Your name, address, phone number, email address, work history, and other details you provide if you submit a job application.</li>
+          </ul> 
+          <h5 class="mt-3 fw-bold">Making a Claim With Proof of Purchase </h5>
+          <ul>
+            <li>If you discover a material or manufacturing defect, we will, at our discretion and in accordance with local law and our warranty claims process (as updated from time to time), replace, repair, or offer reimbursement for the item, when applicable.
+            </li>
+            <li> If the malfunction and/or defect fall within our warranty policy, our Customer Service team will authorize the defect and issue you a Claim Number.</li>
+            <li> Upon completing the warranty claims process, you’ll receive a gift card valid online and in-store equivalent to the original purchase price of your item. </li>
+            <li>If proof of purchase is unavailable, no problem.</li>
+          </ul>
+          
+      </div>
+     </div>
+
+     <!-- Footer -->
+       <footer>
+        <div
+          class="footer_1 col-12 d-flex flex-wrap justify-content-around border-top p-5 mt-5"
+        >
+          <div class="shipping col-1 text-center">
+            <img
+              src="https://herschel.com/content/dam/herschel/lifestyle/2023-s3/new-classics/footer-svg/Shipping.svg"
+              alt=""
+              class="col-9"
+            />
+            <p>Shipping</p>
+          </div>
+          <div class="shipping col-1 text-center">
+            <img
+              src="https://herschel.com/content/dam/herschel/lifestyle/2023-s3/new-classics/footer-svg/Warranty.svg"
+              alt=""
+              class="col-9"
+            />
+            <p>Warranty</p>
+          </div>
+          <div class="shipping col-1 text-center">
+            <img
+              src="https://herschel.com/content/dam/herschel/lifestyle/2023-s3/new-classics/footer-svg/Returns.svg"
+              alt=""
+              class="col-9"
+            />
+            <p>Returns</p>
+          </div>
+        </div>
+        <div class="footer_2">
+          <footer class="footer">
+            <div class="footer-container">
+              <div class="footer-section">
+                <span class="footer-title">About Us</span>
+                <ul class="footer-list">
+                  <li><a href="#">Gift Cards</a></li>
+                  <li><a href="#">Impact</a></li>
+                  <li><a href="#">Careers</a></li>
+                </ul>
+              </div>
+              <div class="footer-section">
+                <span class="footer-title">Customer Service</span>
+                <ul class="footer-list">
+                  <li><a href="#">Customer Service</a></li>
+                  <li><a href="#">Returns</a></li>
+                  <li><a href="#">Warranty</a></li>
+                </ul>
+              </div>
+              <div class="footer-section">
+                <span class="footer-title">Find a Store</span>
+                <ul class="footer-list">
+                  <li><a href="#">Dealer Portal</a></li>
+                  <li><a href="#">Find A Store</a></li>
+                </ul>
+              </div>
+              <div class="footer-section">
+                <span class="footer-title">Contact Us</span>
+                <ul class="footer-list">
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">1-888-997-5597</a></li>
+                </ul>
+              </div>
+              <div class="footer-section">
+                <span class="footer-title">Legal</span>
+                <ul class="footer-list">
+                  <li><a href="#">Terms of Use</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Brand Protection</a></li>
+                  <li><a href="#">Do Not Sell My Info</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-bottom">
+              <div class="copyright">
+                <span>&copy; 2024 Herschel Supply Company</span>
+              </div>
+              <div class="region">
+                <span>Change Region: United States</span>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </footer> 
      
-     
+      <script src="Add.js"></script>
 </body>
 </html>

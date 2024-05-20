@@ -7,16 +7,15 @@ fetch("http://localhost:3000/Arrivals_Data")
   });
 
 function makeCards(data) {
-  let store = data.map((el) => singleCard(el.title, el.image_url, el.price));
+  let store = data.map((el) => singleCard(el.title, el.image_url, el.price, el.category));
   document.querySelector(".arrMainBar-column").innerHTML = store;
 }
 
-function singleCard(title, images, price) {
+function singleCard(title, images, price, category) {
   let card = `
  
-    <a href="/Add To Cart/Add.html"
-                class="cart-item col-lg-3 col-md-5 col-sm-5 col-12 p-lg-3 p-md-3 p-sm-4 ps-5"
-              >
+    <a href="/Add To Cart/Add.html?title=${encodeURIComponent(title)}&images=${encodeURIComponent(images)}&price=${encodeURIComponent(price)}&category=${encodeURIComponent(category)}" class="cart-item col-lg-3 col-md-5 col-sm-5 col-12 p-lg-3 p-md-3 p-sm-4 ps-5 text-decoration-none text-dark"
+   >
                 <img
                   src=${images}
                   alt=""
@@ -104,3 +103,25 @@ document.querySelector("#Totes").addEventListener("click", () => {
   let store = filterData.filter((el) => el.category == "Totes");
   makeCards(store);
 });
+
+fetch('http://localhost:3000/cart').then((res) => res.json()).then(data => cartData(data));
+
+function cartData(data){
+    let cartData2 = data.map((el) => createCart(el.image_url,el.title,el.price))
+    document.querySelector('#cart-card').innerHTML = cartData2;
+}
+
+function createCart(images,title,price){
+    let my = `
+    <div class="cart-item col-lg-4 col-md-4 col-sm-4 col-6">
+    <img
+      src=${images}
+      alt=""
+      class="col-12"
+    />
+    <p id="cart-item-name" class="mt-2 lh-1">${title}</p>
+    <p id="cart-item-price">$${price}</p>
+  </div>
+    `
+    return my;
+}

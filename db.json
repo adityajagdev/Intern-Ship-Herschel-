@@ -440,5 +440,14 @@
       "price": 100.00,
       "category": "Backpack"
     }
+  ],
+  "cart":[
+    {
+      "id": 1,
+      "image_url": "https://herschel.com/content/dam/herschel/products/40082/40082-00001-OS_01.jpg.sthumbnails.680.850.webp",
+      "title": "Herschel Heritage™ Softshell Luggage | Large Carry On - 37L",
+      "price": 200.00,
+      "category": "Soft shell"
+    }
   ]
 }
