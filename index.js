@@ -41,10 +41,10 @@ function Categorie(images, title, discription) {
 // Fetch Data And Show Them In Cart Menu
 fetch('http://localhost:3000/cart').then((res) => res.json()).then(data => cartData(data));
 function cartData(data) {
-  let cartData2 = data.map((el) => createCart(el.images, el.title, el.price))
+  let cartData2 = data.map((el) => createCart(el.images, el.title, el.pricel,el.id))
   document.querySelector('#cart-card').innerHTML = cartData2;
 }
-function createCart(images, title, price) {
+function createCart(images, title, price, id) {
   let my = `
     <div class="cart-item col-lg-4 col-md-4 col-sm-4 col-6">
     <img
@@ -54,7 +54,20 @@ function createCart(images, title, price) {
     />
     <p id="cart-item-name" class="mt-2 lh-1">${title}</p>
     <p id="cart-item-price">$${price}</p>
+    <button data-id=${id} class="delete-cart btn border">Delete</button>
   </div>
     `
   return my;
+}
+
+document.addEventListener('click',(e)=>{
+  if(e.target.classList.contains('delete-cart')){
+    deleteCart(e.target.dataset.id)
+  }
+})
+
+function deleteCart(id){
+  fetch(`http://localhost:3000/cart/${id}`,{
+    method: 'DELETE'
+  }).then((res) => res.json()).then(data => cartData(data));
 }

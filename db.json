@@ -441,30 +441,5 @@
       "category": "Backpack"
     }
   ],
-  "cart": [
-    {
-      "id": "c21a",
-      "images": "https://herschel.com/content/dam/herschel/products/40082/40082-00001-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Herschel Heritage™ Softshell Luggage | Large Carry On - 37L",
-      "price": "200"
-    },
-    {
-      "id": "2831",
-      "images": "https://herschel.com/content/dam/herschel/products/40083/40083-00919-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Herschel Heritage™ Softshell Luggage | Medium - 92L",
-      "price": "250"
-    },
-    {
-      "id": "c7ec",
-      "images": "https://herschel.com/content/dam/herschel/products/40083/40083-00919-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Herschel Heritage™ Softshell Luggage | Medium - 92L",
-      "price": "250"
-    },
-    {
-      "id": "9834",
-      "images": "https://herschel.com/content/dam/herschel/products/11461/11461-06219-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Portland Tote | Packable - 23.7L",
-      "price": "40"
-    }
-  ]
+  "cart": []
 }
