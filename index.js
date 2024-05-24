@@ -1,12 +1,12 @@
 // Slider Data
 fetch('http://localhost:3000/Shop_Categories_Slider').then(res => res.json()).then(data => sliderData(data))
 function sliderData(data) {
-  let Fetch_Data = data.map((el, i) => slide(el.images, el.slider_title));
+  let Fetch_Data = data.map((el, i) => slide(el.images, el.slider_title, el.price, el.category));
   document.querySelector('.slider').innerHTML = Fetch_Data.join("");
 }
-function slide(image, title) {
+function slide(image, title, price, category) {
   let content = `
-    <a href="Arrivals/arrivals.html" class="slide col-lg-2 col-md-3 col-sm-4 col-6 text-decoration-none">
+    <a href="/Add To Cart/Add.html?title=${encodeURIComponent(title)}&images=${encodeURIComponent(image)}&price=${encodeURIComponent(price)}&category=${encodeURIComponent(category)}" class="slide col-lg-2 col-md-3 col-sm-4 col-6 text-decoration-none">
     <img
       src=${image}
       alt=""

@@ -3,52 +3,72 @@
     {
       "id": "1",
       "images": "https://herschel.com/content/dam/herschel/products/11391/11391-00001-OS_01.jpg.sthumbnails.original.webp",
-      "slider_title": "Backpacks"
+      "slider_title": "Backpacks",
+      "category": "Backpacks",
+      "price": 98
     },
     {
       "id": "2",
       "images": "https://herschel.com/content/dam/herschel/products/11198/11198-00001-OS_01.jpg.sthumbnails.original.webp",
-      "slider_title": "Luggage"
+      "slider_title": "Luggage",
+      "category": "Luggage",
+      "price": 90
     },
     {
       "id": "3",
       "images": "https://herschel.com/content/dam/herschel/products/11396/11396-00001-OS_01.jpg.sthumbnails.original.webp",
-      "slider_title": "Duffles"
+      "slider_title": "Duffles",
+      "category": "Duffles",
+      "price": 40
     },
     {
       "id": "4",
       "images": "https://herschel.com/content/dam/herschel/products/50263/50263-00001-OS_01.jpg.sthumbnails.original.webp",
-      "slider_title": "Headwear"
+      "slider_title": "Headwear",
+      "category": "Headwear",
+      "price": 30
     },
     {
       "id": "5",
       "images": "https://herschel.com/content/dam/herschel/products/10360/10360-02993-OS_01.jpg.sthumbnails.original.webp",
-      "slider_title": "Totes"
+      "slider_title": "Totes",
+      "category": "Totes",
+      "price": 10
     },
     {
       "id": "6",
       "images": "https://herschel.com/content/dam/herschel/products/11401/11401-00001-OS_01.jpg.sthumbnails.original.webp",
-      "slider_title": "Hip Packs"
+      "slider_title": "Hip Packs",
+      "category": "Hip",
+      "price": 100
     },
     {
       "id": "7",
       "images": "https://herschel.com/content/dam/herschel/products/11382/11382-00001-OS_01.jpg.sthumbnails.original.webp",
-      "slider_title": "Crossbodies"
+      "slider_title": "Crossbodies",
+      "category": "Crossbodies",
+      "price": 300
     },
     {
       "id": "8",
       "images": "https://herschel.com/content/dam/herschel/products/11394/11394-Carousel.png.sthumbnails.original.webp",
-      "slider_title": "Wallets"
+      "slider_title": "Wallets",
+      "category": "Wallets",
+      "price": 20
     },
     {
       "id": "9",
       "images": "https://herschel.com/content/dam/herschel/products/30060/30060-00001-OS_01.jpg.sthumbnails.original.webp",
-      "slider_title": "Sleeves"
+      "slider_title": "Sleeves",
+      "category": "Sleeves",
+      "price": 80
     },
     {
       "id": "10",
       "images": "https://herschel.com/content/dam/herschel/products/30064/30064-00001-OS_01.jpg.sthumbnails.original.webp",
-      "slider_title": "Pouches"
+      "slider_title": "Pouches",
+      "category": "Pouches",
+      "price": 76
     }
   ],
   "Shop_Categories": [
@@ -443,10 +463,10 @@
   ],
   "cart": [
     {
-      "id": "2831",
-      "images": "https://herschel.com/content/dam/herschel/products/40083/40083-00919-OS_01.jpg.sthumbnails.680.850.webp",
-      "title": "Herschel Heritage™ Softshell Luggage | Medium - 92L",
-      "price": "250"
+      "id": "95a8",
+      "images": "https://herschel.com/content/dam/herschel/products/50263/50263-00001-OS_01.jpg.sthumbnails.original.webp",
+      "title": "Headwear",
+      "price": "undefined"
     }
   ]
 }

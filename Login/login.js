@@ -8,14 +8,18 @@ form1.addEventListener('submit', (e) => {
     let loginEmail = document.getElementById('loginEmail').value;
     let loginPassword = document.getElementById('loginPassword').value;
     let RegistrationData = JSON.parse(localStorage.getItem('Registration'));
-    for (let i = 0; i < RegistrationData.length; i++) {
-        if (RegistrationData[i].email == loginEmail && RegistrationData[i].password == loginPassword) {
-            alert('You Are Login Successfully')
-        }
-        else {
-            alert('Your E-mail or Password Is Wrong!!')
-        }
+    if(loginEmail == "" || loginPassword == ""){
+      alert("Filed The Fileds")
     }
+    else{
+      RegistrationData.map((el)=>{
+        if(el.email == loginEmail && el.password == loginPassword){
+          alert("Login SuccessFully")
+          window.location.href = 'http://127.0.0.1:5500/index.html';
+        }
+      })
+    }
+   
 })
 
 // Register Form
@@ -28,26 +32,30 @@ form2.addEventListener('submit', (e) => {
         password: document.getElementById('password').value,
         cpassword: document.getElementById('cpassword').value
     }
-    arr.push(form2Obj)
-    localStorage.setItem('Registration', JSON.stringify(arr))
-
-    let reg1 = JSON.parse(localStorage.getItem('Registration'))
-
-    reg1.map((e, i) => {
-        if (e.email !== form2Obj.email) {
-            alert('You Are Register Successfully')
-        }
-        else {
-            alert('You Are Already Registered')
-        }
-    })
-
+    if(form2Obj.firstName == "" || form2Obj.lastName == "" || form2Obj.email == "" || form2Obj.password == "" || form2Obj.cpassword == ""){
+      alert("Filed The Fileds")
+    }
+    else{
+      if(form2Obj.password == form2Obj.cpassword){
+        
+        arr.push(form2Obj)
+      localStorage.setItem('Registration', JSON.stringify(arr)) 
+        let reg1 = JSON.parse(localStorage.getItem('Registration'))
+        alert("Register SuccessFully")
+        window.location.href = 'http://127.0.0.1:5500/index.html';
+      }
+      else{
+        alert("Password And Conform Password Can't Match")
+      }
+    }
 })
+
+
 
 // Fetch Data And Show Them In Cart Menu
 fetch('http://localhost:3000/cart').then((res) => res.json()).then(data => cartData(data));
 function cartData(data) {
-  let cartData2 = data.map((el) => createCart(el.images, el.title, el.pricel,el.id))
+  let cartData2 = data.map((el) => createCart(el.images, el.title, el.pricel, el.id))
   document.querySelector('#cart-card').innerHTML = cartData2;
 }
 function createCart(images, title, price, id) {
@@ -65,15 +73,13 @@ function createCart(images, title, price, id) {
     `
   return my;
 }
-
-document.addEventListener('click',(e)=>{
-  if(e.target.classList.contains('delete-cart')){
+document.addEventListener('click', (e) => {
+  if (e.target.classList.contains('delete-cart')) {
     deleteCart(e.target.dataset.id)
   }
 })
-
-function deleteCart(id){
-  fetch(`http://localhost:3000/cart/${id}`,{
+function deleteCart(id) {
+  fetch(`http://localhost:3000/cart/${id}`, {
     method: 'DELETE'
   }).then((res) => res.json()).then(data => cartData(data));
 }
