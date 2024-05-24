@@ -6,14 +6,14 @@ function sliderData(data) {
 }
 function slide(image, title) {
   let content = `
-    <div class="slide col-lg-2 col-md-3 col-sm-4 col-6">
+    <a href="Arrivals/arrivals.html" class="slide col-lg-2 col-md-3 col-sm-4 col-6 text-decoration-none">
     <img
       src=${image}
       alt=""
       class="col-12"
     />
-    <h6 style="font-size: 13px">${title}</h6>
-  </div>
+    <h6 style="font-size: 13px;  color: black; ">${title}</h6>
+  </a>
     `
   return content;
 }
@@ -26,14 +26,16 @@ function shopCategori_Data(data) {
 }
 function Categorie(images, title, discription) {
   let content = `
+  <a href="Arrivals/arrivals.html " class="text-decoration-none">
     <div class="categorie col-lg-5 col-md-5 col-sm-10 col-11 mt-5 m-auto">
             <img src=${images} alt="" class="col-12 ">
             <div class="shop-categorie-text col-12 lh-1">
-                <h3 class="fw-bolder">${title}</h3>
-                    <p>${discription}</p>
+                <h3 class="fw-bolder text-dark">${title}</h3>
+                    <p class="text-dark">${discription}</p>
                     <a href="" style="color: gray; font-size: 15px;">Shop Bags</a>
-            </div> 
+            </div>  
         </div>
+        </a>
     `
   return content;
 }
