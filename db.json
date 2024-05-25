@@ -461,12 +461,5 @@
       "category": "Backpack"
     }
   ],
-  "cart": [
-    {
-      "id": "95a8",
-      "images": "https://herschel.com/content/dam/herschel/products/50263/50263-00001-OS_01.jpg.sthumbnails.original.webp",
-      "title": "Headwear",
-      "price": "undefined"
-    }
-  ]
+  "cart": []
 }

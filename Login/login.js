@@ -53,9 +53,15 @@ form2.addEventListener('submit', (e) => {
 
 
 // Fetch Data And Show Them In Cart Menu
-fetch('http://localhost:3000/cart').then((res) => res.json()).then(data => cartData(data));
-function cartData(data) {
-  let cartData2 = data.map((el) => createCart(el.images, el.title, el.pricel, el.id))
+fetch('http://localhost:3000/cart').then((res) => res.json()).then(data => {
+  let  dataLength = data.length
+  cartData(data, dataLength) 
+});
+function cartData(data,dataLength) {
+  if(dataLength == 0){
+    document.getElementById('Empty').innerHTML = 'Your Cart Is Empty!!'
+  }
+  let cartData2 = data.map((el) => createCart(el.images, el.title, el.pricel,el.id))
   document.querySelector('#cart-card').innerHTML = cartData2;
 }
 function createCart(images, title, price, id) {
